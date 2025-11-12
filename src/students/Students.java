@@ -88,6 +88,9 @@ public class Students {
 
 
     public void test(Student student){
-        student.getInfo();
+        if (student == null) {
+            System.out.println("Incorrect number :( ");
+        }
+        else{student.getInfo();}
     }
 }

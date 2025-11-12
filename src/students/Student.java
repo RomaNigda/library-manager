@@ -36,7 +36,7 @@ public class Student {
             System.out.println(book.toString());
         }
         System.out.println();
-        System.out.println(takeBook);
+        System.out.println("Book take: " + takeBook);
         System.out.println("---------------");
     }
 }
